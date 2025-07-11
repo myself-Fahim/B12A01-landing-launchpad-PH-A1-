@@ -221,3 +221,37 @@ main{
     font-family: Inter;
 }
 
+/* Section 4 started */
+
+.sec-4{
+    background-color: #FFF;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding: 70px 150px;
+    border: none;
+    border-radius: 14px;
+    padding-bottom: 71px;
+}
+
+.sec-4 h1{
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 50px;
+    font-weight: 700px;
+    font-family: Raleway;
+    text-align: center;
+}
+.sec-4 p{
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    line-height: 23px;
+}
+.sec-4 button{
+    margin-bottom: 20px;
+}
+.sec-4 img{
+    border-radius: 48px;
+    display: flex;
+    margin: auto;
+}
