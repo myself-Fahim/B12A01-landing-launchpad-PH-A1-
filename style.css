@@ -58,7 +58,7 @@ header {
 /* Main Section 1 Started */
 .sec-1 {
 
-    margin-top: 116px;
+    padding-top: 116px;
     margin-bottom: 116px;
     display: flex;
     justify-content: space-between;
@@ -95,6 +95,9 @@ header {
 }
 
 /* Main Section 2 started */
+main{
+    background-color: #F5F8FF;
+}
 
 .sec-2{
     background-color: rgba(78, 71, 255, 0.10);
@@ -155,3 +158,66 @@ header {
     align-items: center;
     justify-content: center;
 }
+
+/* Section 3 starts */
+
+.sec-3{
+    padding-bottom: 137px;
+}
+
+#desc3{
+    font-family: Raleway;
+    font-size: 42px;
+    font-weight: 700px;
+    color: #252432;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.star{
+    margin-bottom: 20px;
+}
+.cart-h{
+    margin-bottom: 10px;
+    line-height: 28px;
+    font-style: Raleway;
+
+}
+.cart-p
+{
+    margin-bottom: 20px;
+    line-height: 22.4px;
+    font-style: Raleway;
+}
+.Reviewer{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.Reviewer img{
+    border-radius: 100px;
+}
+.cart-1{
+    width: 300px;
+    border-radius: 14px;
+    padding: 20px 20px;
+    background-color:rgba(255, 255, 255, 0.50);
+}
+.carts{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.Reviewer-date{
+    color: rgba(37, 36, 50, 0.20);
+    font-weight: 200px;
+    font-family: Inter;
+}
+.Reviewer-name{
+    color: darkslategray;
+    font-weight: 700px;
+    font-family: Inter;
+}
+.cart-1 h1{
+    font-family: Inter;
+}
+
