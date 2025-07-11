@@ -44,6 +44,10 @@ header {
 
 }
 
+.button:hover {
+    background-color: darkgreen;
+}
+
 .banner h1 {
     color: #252432;
     font-family: Raleway;
@@ -95,11 +99,11 @@ header {
 }
 
 /* Main Section 2 started */
-main{
+main {
     background-color: #F5F8FF;
 }
 
-.sec-2{
+.sec-2 {
     background-color: rgba(78, 71, 255, 0.10);
     padding: 50px 80px;
     border: none;
@@ -123,13 +127,14 @@ main{
     justify-content: center;
 }
 
-.cal{
+.cal {
     color: #4E47FF;
     font-size: 80px;
     font-weight: 700px;
     font-family: Inter;
 }
-.undercal{
+
+.undercal {
     color: rgba(0, 0, 0, 0.50);
     font-size: 20px;
     font-weight: 400px;
@@ -161,11 +166,11 @@ main{
 
 /* Section 3 starts */
 
-.sec-3{
+.sec-3 {
     padding-bottom: 137px;
 }
 
-#desc3{
+#desc3 {
     font-family: Raleway;
     font-size: 42px;
     font-weight: 700px;
@@ -173,57 +178,66 @@ main{
     text-align: center;
     margin-bottom: 50px;
 }
-.star{
+
+.star {
     margin-bottom: 20px;
 }
-.cart-h{
+
+.cart-h {
     margin-bottom: 10px;
     line-height: 28px;
     font-style: Raleway;
 
 }
-.cart-p
-{
+
+.cart-p {
     margin-bottom: 20px;
     line-height: 22.4px;
     font-style: Raleway;
 }
-.Reviewer{
+
+.Reviewer {
     display: flex;
     gap: 10px;
     align-items: center;
 }
-.Reviewer img{
+
+.Reviewer img {
     border-radius: 100px;
 }
-.cart-1{
+
+.cart-1 {
     width: 300px;
     border-radius: 14px;
     padding: 20px 20px;
-    background-color:rgba(255, 255, 255, 0.50);
+    background-color: rgba(255, 255, 255, 0.50);
 }
-.carts{
+
+.carts {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
-.Reviewer-date{
+
+.Reviewer-date {
     color: rgba(37, 36, 50, 0.20);
     font-weight: 200px;
     font-family: Inter;
 }
-.Reviewer-name{
+
+.Reviewer-name {
     color: darkslategray;
     font-weight: 700px;
     font-family: Inter;
 }
-.cart-1 h1{
+
+.cart-1 h1 {
     font-family: Inter;
 }
 
 /* Section 4 started */
 
-.sec-4{
+.sec-4 {
     background-color: #FFF;
     margin-right: 150px;
     margin-left: 150px;
@@ -233,7 +247,7 @@ main{
     padding-bottom: 71px;
 }
 
-.sec-4 h1{
+.sec-4 h1 {
     margin-bottom: 20px;
     color: #000;
     font-size: 50px;
@@ -241,17 +255,75 @@ main{
     font-family: Raleway;
     text-align: center;
 }
-.sec-4 p{
+
+.sec-4 p {
     margin-bottom: 20px;
     color: rgba(0, 0, 0, 0.50);
     text-align: center;
     line-height: 23px;
 }
-.sec-4 button{
+
+.sec-4 button {
     margin-bottom: 20px;
 }
-.sec-4 img{
+
+.sec-4 img {
     border-radius: 48px;
     display: flex;
     margin: auto;
+}
+
+/* Section 5 started */
+
+.sec-5 {
+    padding-top: 92px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 104px;
+}
+
+.sec-5 h1 {
+    color: #000;
+    font-size: 97px;
+    font-weight: 700px;
+    font-family: Raleway;
+}
+
+.inp-1 {
+    display: flex;
+    align-items: center;
+    min-width: 430px;
+    margin-top: 6px;
+    padding: 20px 32px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    background-color: #FFF;
+    gap: 10px;
+}
+
+.form-btn {
+    display: flex;
+    min-width: 495px;
+    padding: 19px 101px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #4E47FF;
+    color: #FFF;
+    border-radius: 10px;
+    border: none;
+}
+
+.form-btn:hover {
+    background-color: darkgreen;
+}
+
+.lbl {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
 }
