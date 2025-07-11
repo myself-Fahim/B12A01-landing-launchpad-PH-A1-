@@ -2,18 +2,23 @@
     margin: 0px;
     padding: 0px;
 }
-header{
+
+/* Header Started */
+
+header {
     background-image: url("./Assets/Hero-bg.png");
 
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
     padding-bottom: 158px;
-  
+
 }
-.navbar h1{
+
+.navbar h1 {
     color: #4E47FF;
     font-family: Inter;
     font-size: 34px;
@@ -22,7 +27,8 @@ header{
     margin-left: 151px;
 
 }
-.button{
+
+.button {
     background-color: #4E47FF;
     color: #FFF;
     font-weight: 700px;
@@ -37,7 +43,8 @@ header{
     align-items: center;
 
 }
-.banner h1{
+
+.banner h1 {
     color: #252432;
     font-family: Raleway;
     text-align: center;
@@ -45,24 +52,32 @@ header{
     font-weight: 700px;
     padding-bottom: 37px;
 }
-.sec-1{
-    
+
+/* Main Started */
+
+/* Main Section 1 Started */
+.sec-1 {
+
     margin-top: 116px;
     margin-bottom: 116px;
     display: flex;
     justify-content: space-between;
 }
-.written1{
+
+.written1 {
     margin-left: 141px;
     padding-top: 63px;
-} 
-.img1{
+}
+
+.img1 {
     margin-right: 160px;
 }
-.img1 img{
+
+.img1 img {
     border-radius: 48px;
 }
-#action{
+
+#action {
     margin-bottom: 23px;
     color: #252432;
     font-size: 42px;
@@ -70,10 +85,73 @@ header{
     font-family: Raleway;
 
 }
-#explore{
+
+#explore {
     margin-bottom: 23px;
     color: rgba(37, 36, 50, 0.50);
     font-family: Raleway;
     font-size: 24px;
     font-weight: 400;
+}
+
+/* Main Section 2 started */
+
+.sec-2{
+    background-color: rgba(78, 71, 255, 0.10);
+    padding: 50px 80px;
+    border: none;
+    margin-left: 141px;
+    margin-right: 159px;
+    margin-bottom: 137px;
+    border-radius: 24px;
+}
+
+#joined {
+    color: #252432;
+    margin-bottom: 48px;
+    font-size: 38px;
+    font-family: Raleway;
+    text-align: center;
+    font-weight: 700px;
+}
+
+.calculation {
+    display: flex;
+    justify-content: center;
+}
+
+.cal{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: 700px;
+    font-family: Inter;
+}
+.undercal{
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 20px;
+    font-weight: 400px;
+    font-family: Inter;
+}
+
+.cal-1 {
+    margin-right: 158px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cal-2 {
+    margin-right: 158px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cal-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
